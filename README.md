@@ -11,6 +11,12 @@ O jogador escolhe a coluna e a linha de preferencia. Ao escolher, o jogador pode
 O jogador ganha quando todos os quadrados sem minas são revelados.<br>
 Assim que o jogador escolhe um campo com uma bomba, se mostra no prompt de comando: "Você explodiu" e assim se encerra o jogo. Também se encerra caso o jogador escolha 
 uma posição acima de 10 ou 0.<br>
+
+## Mapa
+
+Dimensões: 10x10<br>
+Não fizemos um mapa da área do campo minado, porque nossas bombas aparecem de forma aleatória na matriz. 
+
 ## Algoritimo VisualG
 Var<br>
 // Seção de Declarações das variáveis <br>
