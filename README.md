@@ -1,6 +1,12 @@
-# Campo-minado
+# Campo minado
 Fazer um jogo do campo minado em português estruturado e em C#. <br>
 
+## Estudo de caso
+Estudo de caso: Um tabuleiro com X colunas e X linhas dependendo da versão do jogo. Um jogador tem de adivinhar todos os quadrados limpos em um campo cheio de minas sem que alguma bomba seja detonada.
+Os quadrados do jogo são revelados quando um jogador clica nele. Ao clicar, o jogador pode revelar tanto um número (indica a quantidade de bombas perto) ou uma área vazia. 
+O jogador ganha quando todos os quadrados sem minas são revelados.
+
+## Algoritimo VisualG
 Var<br>
 // Seção de Declarações das variáveis <br>
 CampoMinado:vetor[1..10,1..10] de inteiro<br>
