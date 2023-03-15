@@ -1,4 +1,7 @@
 # Campo minado
+
+Nomes: Gabriel Trindade Dias & Iago Carvalho Santana - 3º Jogos Digitais
+
 Fazer um jogo do campo minado em português estruturado e em C#. <br>
 
 ## Estudo de caso
