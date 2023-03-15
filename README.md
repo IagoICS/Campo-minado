@@ -2,10 +2,12 @@
 Fazer um jogo do campo minado em português estruturado e em C#. <br>
 
 ## Estudo de caso
-Estudo de caso: Um tabuleiro com X colunas e X linhas dependendo da versão do jogo. Um jogador tem de adivinhar todos os quadrados limpos em um campo cheio de minas sem que alguma bomba seja detonada.
-Os quadrados do jogo são revelados quando um jogador clica nele. Ao clicar, o jogador pode revelar tanto um número (indica a quantidade de bombas perto) ou uma área vazia. 
-O jogador ganha quando todos os quadrados sem minas são revelados.
-
+O jogo se trata de um tabuleiro com 10 colunas e 10 linhas no jogo. Um jogador tem de adivinhar todos os quadrados limpos em um campo cheio de até 10 minas sem que alguma bomba seja detonada.<br>
+Os campos são gerados aleatoriamente não tendo uma posição fixa, fazendo com que o jogador não repita a mesma estrategia.<br>
+O jogador escolhe a coluna e a linha de preferencia. Ao escolher, o jogador pode revelar tanto uma frase "Bombas por perto"(indica para o jogador se existe bombas ao redor da posição escolhida) ou uma área vazia.<br> 
+O jogador ganha quando todos os quadrados sem minas são revelados.<br>
+Assim que o jogador escolhe um campo com uma bomba, se mostra no prompt de comando: "Você explodiu" e assim se encerra o jogo. Também se encerra caso o jogador escolha 
+uma posição acima de 10 ou 0.<br>
 ## Algoritimo VisualG
 Var<br>
 // Seção de Declarações das variáveis <br>
