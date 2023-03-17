@@ -4,7 +4,7 @@ Nomes: Gabriel Trindade Dias & Iago Carvalho Santana - 3º Jogos Digitais
 
 Fazer um jogo do campo minado em português estruturado e em C#. <br>
 
-## Estudo de caso
+## Estudo de caso\Explicação
 O jogo se trata de um tabuleiro com 10 colunas e 10 linhas no jogo. Um jogador tem de adivinhar todos os quadrados limpos em um campo cheio de até 10 minas sem que alguma bomba seja detonada.<br>
 Os campos são gerados aleatoriamente não tendo uma posição fixa, fazendo com que o jogador não repita a mesma estrategia.<br>
 O jogador escolhe a coluna e a linha de preferencia. Ao escolher, o jogador pode revelar tanto uma frase "Bombas por perto"(indica para o jogador se existe bombas ao redor da posição escolhida) ou uma área vazia.<br> 
