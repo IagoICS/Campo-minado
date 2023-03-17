@@ -133,21 +133,21 @@ namespace campoMinado
                                         {
                                             if (tabuleiro[i, j - 1] == 0)
                                             {
-                                                tabuleiro[i, j + 1] = 72;
+                                                tabuleiro[i, j - 1] = 72;
                                         }
                                         }
                                         if (i > 1)
                                         {
                                             if (tabuleiro[i - 1, j] == 0)
                                             {
-                                                tabuleiro[i, j + 1] = 72;
+                                                tabuleiro[i - 1, j ] = 72;
                                         }
                                         }
-                                        if (i > 9)
+                                        if (i < 9)
                                         {
                                             if (tabuleiro[i + 1, j] == 0)
                                             {
-                                                tabuleiro[i, j + 1] = 72;
+                                                tabuleiro[i + 1, j] = 72;
                                             }
                                         }
                                 }
