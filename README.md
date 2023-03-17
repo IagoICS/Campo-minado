@@ -21,6 +21,11 @@ Não fizemos um mapa da área do campo minado, porque nossas bombas aparecem de 
 
 ```
 Algoritmo "CampoMinado"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 16/03/2023
 Var
 CampoMinado:vetor[1..10,1..10] de inteiro
 i, j, QTbombas1, QTbombas2:inteiro
@@ -100,6 +105,30 @@ escreval("1 - 2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 - 10 - ")
                        se CampoMinado[i,j] = 0 entao
                           escreval("Espaço livre")
                           CampoMinado[i, j] := 72
+                          para i de 1 ate 10 faca
+                               para j de 1 ate 10 faca
+                                        se (j < 10) entao
+                                           se (CampoMinado[i, j + 1] = 0) entao
+                                                CampoMinado[i, j + 1] := 72
+                                           fimse
+                                        fimse
+                                        se (j > 1) entao
+                                            se (CampoMinado[i, j - 1] = 0) entao
+                                                CampoMinado[i, j - 1] := 72
+                                            fimse
+                                        fimse
+                                        se (i > 1) entao
+                                           se (CampoMinado[i - 1, j] = 0) entao
+                                                CampoMinado[i - 1, j] := 72
+                                           fimse
+                                        fimse
+                                        se (i < 10) entao
+                                            se (CampoMinado[i + 1, j] = 0) entao
+                                                CampoMinado[i + 1, j] := 72
+                                            fimse
+                                        fimse
+                               fimpara
+                          fimpara
                        fimse
                        se (CampoMinado[i,j] > 0) e (CampoMinado[i,j]< 5) entao
                           escreval("Bombas por perto")
